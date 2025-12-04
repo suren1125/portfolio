@@ -4,7 +4,7 @@ import { inter, lusitana, outfit, ovo } from "@/app/ui/fonts";
 
 export const metadata: Metadata = {
   title: "Portfolio - Suren",
-  description: "",
+  description: "A NextJS portfolio website by Suren Shrestha",
 };
 
 export default function RootLayout({

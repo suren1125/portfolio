@@ -27,12 +27,20 @@ const Footer = ({ isDarkMode }: { isDarkMode: boolean }) => {
         <p>© 2025 Suren Shrestha. All rights reserved.</p>
         <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
           <li>
-            <a target="_blank" href="https://github.com/suren1125">
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://github.com/suren1125"
+            >
               Github
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://linkedin.com/in/suren-shrestha">
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://linkedin.com/in/suren-shrestha"
+            >
               LinkedIn
             </a>
           </li>
