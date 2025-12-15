@@ -11,11 +11,12 @@
   --font-lusitana: var(--font-lusitana);
   --font-inter: var(--font-inter);
   --font-outfit: var(--font-outfit);
+  --font-public_sans: var(--font-public_sans);
 
   /* theme colors */
   --color-lightHover: #fcf4ff;
-  --color-darkHover: #2a004a;
-  --color-darkTheme: #11001f;
+  --color-darkHover: #414141;
+  --color-darkTheme: #000000;
 
   /* box shadows */
   --shadow-black: 4px 4px 0 #000;
@@ -26,17 +27,18 @@
 }
 
 .dark {
-  --background: #11001f;
+  --background: #111111;
   --foreground: #ededed;
 
-  --color-lightHover: #2a004a;
+  --color-lightHover: #414141;
   --color-darkHover: #fcf4ff;
-  --color-darkTheme: #11001f;
+  --color-darkTheme: #111111;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
+  font: var(--font-public_sans);
 }
 
 .my-auto-grid {

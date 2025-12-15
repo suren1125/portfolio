@@ -25,7 +25,7 @@ const NavBar: React.FC<NavBarProps> = ({ isDarkMode, setIsDarkMode }) => {
   return (
     <>
       <nav
-        className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex justify-between items-center z-50 transition-all duration-300 ${
+        className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-1 flex justify-between items-center z-50 transition-all duration-300 ${
           isScroll
             ? "bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white/10"
             : ""
@@ -34,7 +34,7 @@ const NavBar: React.FC<NavBarProps> = ({ isDarkMode, setIsDarkMode }) => {
         <a href="#top" title="logo">
           <Image
             src={assets.surenlogo}
-            className="w-22 h-22 mr-14 cursor-pointer"
+            className="size-22 mr-14 cursor-pointer"
             alt="logo"
           />
         </a>
@@ -49,7 +49,7 @@ const NavBar: React.FC<NavBarProps> = ({ isDarkMode, setIsDarkMode }) => {
         >
           {["top", "about", "projects", "contact"].map((section) => (
             <li key={section}>
-              <a href={`#${section}`} className="font-ovo">
+              <a href={`#${section}`} className="font-public_sans">
                 {section === "top"
                   ? "Home"
                   : section === "about"

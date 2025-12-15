@@ -9,13 +9,13 @@ const About = ({ isDarkMode }: { isDarkMode: boolean }) => {
   return (
     <motion.div
       id="about"
-      className="w-full px-[12%] py-10 scroll-mt-20"
+      className="w-full px-[12%] py-10 scroll-mt-21"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.3, delay: 0.1 }}
     >
       <motion.h4
-        className="font-ovo text-center mb-2 text-lg"
+        className="text-center mb-2 text-lg"
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.25, delay: 0.1 }}
@@ -24,7 +24,7 @@ const About = ({ isDarkMode }: { isDarkMode: boolean }) => {
       </motion.h4>
 
       <motion.h2
-        className="font-ovo text-center text-5xl"
+        className="text-center text-5xl"
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.25, delay: 0.2 }}
@@ -33,7 +33,7 @@ const About = ({ isDarkMode }: { isDarkMode: boolean }) => {
       </motion.h2>
 
       <motion.div
-        className="flex w-full flex-col lg:flex-row items-center gap-20 my-20"
+        className="flex w-full flex-col lg:flex-row items-center gap-10 my-10"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.4, delay: 0.1 }}
@@ -44,7 +44,7 @@ const About = ({ isDarkMode }: { isDarkMode: boolean }) => {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.4, delay: 0.2 }}
         >
-          <p className="mb-10 font-ovo text-center">
+          <p className="mb-10 text-center">
             I am a 4th year student currently studying B.Sc.CSIT at Bhaktapur
             Multiple Campus, Bhaktapur. I come from Shankharapur-09, Kathmandu.
           </p>
@@ -77,7 +77,7 @@ const About = ({ isDarkMode }: { isDarkMode: boolean }) => {
           </motion.ul>
 
           <motion.h4
-            className="my-6 text-gray-700 font-ovo dark:text-white/80 text-center"
+            className="my-6 dark:text-white/80 text-center text-xl"
             initial={{ y: 20, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.3, delay: 0.35 }}

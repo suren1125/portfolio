@@ -24,7 +24,7 @@ const Header = () => {
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.3, delay: 0.1 }}
-        className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-ovo"
+        className="flex items-end gap-2 text-xl md:text-2xl"
       >
         Hi! I&apos;m Suren Shrestha{" "}
         <Image src={assets.hand_icon} alt="hand-icon" className="w-6" />
@@ -34,7 +34,7 @@ const Header = () => {
         initial={{ y: -30, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.4, delay: 0.2 }}
-        className="text-3xl sm:text-6xl lg:text-[66px] font-ovo"
+        className="text-3xl sm:text-6xl lg:text-[66px]"
       >
         aspiring frontend web developer based in Nepal
       </motion.h1>
@@ -43,7 +43,7 @@ const Header = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.3, delay: 0.3 }}
-        className="max-w-2xl mx-auto font-ovo"
+        className="max-w-2xl mx-auto"
       >
         I am a frontend developer.
       </motion.p>
@@ -56,7 +56,7 @@ const Header = () => {
           href="#contact"
           className="px-10 py-3 border rounded-full border-white bg-black text-white flex items-center gap-2 dark:bg-transparent"
         >
-          contact me{" "}
+          Contact Me{" "}
           <Image
             src={assets.right_arrow_white}
             alt="right-arrow"
@@ -72,7 +72,7 @@ const Header = () => {
           download
           className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 dark:bg-white dark:text-black"
         >
-          my resume{" "}
+          My Resume{" "}
           <Image
             src={assets.download_icon}
             alt="download-icon"

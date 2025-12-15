@@ -27,13 +27,13 @@ const Contact = () => {
   return (
     <motion.div
       id="contact"
-      className="w-full px-[12%] py-10 scroll-mt-20 bg-[url(/footer-bg-color.png)] dark:bg-none"
+      className="w-full px-[12%] py-10 scroll-mt-21 bg-[url(/footer-bg-color.png)] dark:bg-none"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.3, delay: 0.1 }}
     >
       <motion.h4
-        className="text-center mb-2 text-lg font-ovo"
+        className="text-center mb-2 text-lg "
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.25, delay: 0.1 }}
@@ -42,7 +42,7 @@ const Contact = () => {
       </motion.h4>
 
       <motion.h2
-        className="text-center text-5xl font-ovo"
+        className="text-center text-5xl "
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.25, delay: 0.2 }}
@@ -51,7 +51,7 @@ const Contact = () => {
       </motion.h2>
 
       <motion.p
-        className="text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo"
+        className="text-center max-w-2xl mx-auto mt-5 mb-12 "
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.25, delay: 0.25 }}
@@ -73,7 +73,8 @@ const Contact = () => {
             name="name"
             placeholder="Enter your name"
             required
-            className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90"
+            autoComplete="name"
+            className="flex-1 p-5 outline-none border-[0.5px] border-gray-400 rounded-3xl bg-white dark:bg-darkHover/30 dark:border-white/90"
             initial={{ x: -20, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.25, delay: 0.1 }}
@@ -84,7 +85,8 @@ const Contact = () => {
             name="email"
             placeholder="Enter your email"
             required
-            className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90"
+            autoComplete="email"
+            className="flex-1 p-5 outline-none border-[0.5px] border-gray-400 rounded-3xl bg-white dark:bg-darkHover/30 dark:border-white/90"
             initial={{ x: 20, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.25, delay: 0.1 }}
@@ -96,7 +98,7 @@ const Contact = () => {
           placeholder="Enter your message"
           rows={6}
           required
-          className="w-full p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6 dark:bg-darkHover/30 dark:border-white/90"
+          className="w-full p-5 outline-none border-[0.5px] border-gray-400 rounded-3xl bg-white mb-6 dark:bg-darkHover/30 dark:border-white/90"
           initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.25, delay: 0.15 }}
