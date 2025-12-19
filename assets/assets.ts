@@ -12,6 +12,7 @@ import git from "./git.png";
 import mongodb from "./mongodb.png";
 import right_arrow_white from "./right-arrow-white.png";
 import surenlogo from "./surenlogo.png";
+import profile1 from "./profile1.jpg";
 import mail_icon from "./mail_icon.png";
 import mail_icon_dark from "./mail_icon_dark.png";
 import download_icon from "./download-icon.png";
@@ -59,6 +60,7 @@ export const assets = {
   mongodb,
   right_arrow_white,
   surenlogo,
+  profile1,
   mail_icon,
   mail_icon_dark,
   download_icon,

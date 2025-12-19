@@ -14,9 +14,9 @@ const Header = () => {
         transition={{ duration: 0.3, type: "spring", stiffness: 120 }}
       >
         <Image
-          src={assets.surenlogo}
+          src={assets.profile1}
           alt="profile"
-          className="rounded-full w-32"
+          className="rounded-full size-45 object-cover"
         />
       </motion.div>
 
