@@ -82,16 +82,10 @@ export const assets = {
 
 export const workData: ProjectItem[] = [
   {
-    title: "Itinerary Planner",
-    description: "Web Design",
-    bgImage: "/tripmandu.png",
-    link: "https://github.com/suren1125/TripMandu",
-  },
-  {
-    title: "e-Voting System",
-    description: "Mobile App",
-    bgImage: "/eballot.png",
-    link: "https://github.com/suren1125/eGovernanceProject",
+    title: "Inventory App",
+    description: "Fullstack Inventory Management",
+    bgImage: "/inventory-management.png",
+    link: "https://github.com/suren1125/inventory-management",
   },
   {
     title: "Dashboard App",
@@ -99,6 +93,19 @@ export const workData: ProjectItem[] = [
     bgImage: "/dashboard.png",
     link: "https://nextjs-dashboard-ruby-nine-99.vercel.app/",
   },
+  {
+    title: "Itinerary Planner",
+    description: "Tourist Destination Planner using OSM",
+    bgImage: "/tripmandu.png",
+    link: "https://github.com/suren1125/TripMandu",
+  },
+  {
+    title: "e-Voting System",
+    description: "Electronic Voting System",
+    bgImage: "/eballot.png",
+    link: "https://github.com/suren1125/eGovernanceProject",
+  },
+
   {
     title: "Local Library App",
     description: "Express Library Management tutorial from MDN",
