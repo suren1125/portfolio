@@ -54,12 +54,12 @@ const Projects = () => {
         {workData.map((project, index) => (
           <Link href={project.link} key={index} target="_blank">
             <motion.div
-              className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative border border-gray-300 dark:border-none hover:shadow-lg cursor-pointer group"
+              className="aspect-square bg-no-repeat bg-cover bg-center rounded-2xl relative border border-gray-300 dark:border-none hover:shadow-lg cursor-pointer group"
               style={{ backgroundImage: `url(${project.bgImage})` }}
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2 }}
             >
-              <div className="bg-white w-10/12 rounded-md border border-gray-400 absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-300 group-hover:bottom-7 group-hover:shadow-lg">
+              <div className="bg-white w-10/12 rounded-2xl border border-gray-400 absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-300 group-hover:bottom-7 group-hover:shadow-lg">
                 <div>
                   <h2 className="font-semibold">{project.title}</h2>
                   <p className="text-sm text-gray-700 font-inter">

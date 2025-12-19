@@ -58,7 +58,7 @@ const About = ({ isDarkMode }: { isDarkMode: boolean }) => {
             {infoList.map(({ icon, iconDark, title, description }, index) => (
               <motion.li
                 key={index}
-                className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-300 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
+                className="border-[0.5px] border-gray-400 rounded-3xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-300 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
                 whileHover={{ scale: 1.05 }}
               >
                 <Image
@@ -94,7 +94,7 @@ const About = ({ isDarkMode }: { isDarkMode: boolean }) => {
             {toolsData.map((tool, index) => (
               <motion.li
                 key={index}
-                className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-300"
+                className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-2xl cursor-pointer hover:-translate-y-1 duration-300"
                 whileHover={{ scale: 1.05 }}
               >
                 <Image src={tool} alt="tool" className="w-5 sm:w-7" />

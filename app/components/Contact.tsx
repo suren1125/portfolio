@@ -74,7 +74,7 @@ const Contact = () => {
             placeholder="Enter your name"
             required
             autoComplete="name"
-            className="flex-1 p-5 outline-none border-[0.5px] border-gray-400 rounded-3xl bg-white dark:bg-darkHover/30 dark:border-white/90"
+            className="flex-1 p-5 outline-none border-[0.5px] border-gray-400 rounded-2xl bg-white dark:bg-darkHover/30 dark:border-white/90"
             initial={{ x: -20, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.25, delay: 0.1 }}
@@ -86,7 +86,7 @@ const Contact = () => {
             placeholder="Enter your email"
             required
             autoComplete="email"
-            className="flex-1 p-5 outline-none border-[0.5px] border-gray-400 rounded-3xl bg-white dark:bg-darkHover/30 dark:border-white/90"
+            className="flex-1 p-5 outline-none border-[0.5px] border-gray-400 rounded-2xl bg-white dark:bg-darkHover/30 dark:border-white/90"
             initial={{ x: 20, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.25, delay: 0.1 }}
@@ -98,7 +98,7 @@ const Contact = () => {
           placeholder="Enter your message"
           rows={6}
           required
-          className="w-full p-5 outline-none border-[0.5px] border-gray-400 rounded-3xl bg-white mb-6 dark:bg-darkHover/30 dark:border-white/90"
+          className="w-full p-5 outline-none border-[0.5px] border-gray-400 rounded-2xl bg-white mb-6 dark:bg-darkHover/30 dark:border-white/90"
           initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.25, delay: 0.15 }}
@@ -110,7 +110,7 @@ const Contact = () => {
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.2 }}
         >
-          Submit now{" "}
+          Submit Now{" "}
           <Image
             src={assets.right_arrow_white}
             alt="right-arrow"
