@@ -82,10 +82,10 @@ export const assets = {
 
 export const workData: ProjectItem[] = [
   {
-    title: "Inventory App",
-    description: "Fullstack Inventory Management",
+    title: "Inventory Management App",
+    description: "Fullstack Inventory Management Dashboard",
     bgImage: "/inventory-management.png",
-    link: "https://github.com/suren1125/inventory-management",
+    link: "https://inventory-management-seven-psi.vercel.app/",
   },
   {
     title: "Dashboard App",
