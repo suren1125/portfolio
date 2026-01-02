@@ -45,8 +45,11 @@ const About = ({ isDarkMode }: { isDarkMode: boolean }) => {
           transition={{ duration: 0.4, delay: 0.2 }}
         >
           <p className="mb-10 text-center">
-            I am a 4th year student currently studying B.Sc.CSIT at Bhaktapur
-            Multiple Campus, Bhaktapur. I come from Shankharapur-09, Kathmandu.
+            I am a final-year{" "}
+            <strong>B.Sc.CSIT student at Bhaktapur Multiple Campus </strong>
+            with a passion for frontend engineering. I thrive on turning
+            creative designs into high-performance web applications using modern
+            frameworks like Next.js 16.
           </p>
 
           <motion.ul

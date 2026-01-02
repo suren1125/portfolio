@@ -82,41 +82,36 @@ export const assets = {
 
 export const workData: ProjectItem[] = [
   {
-    title: "Inventory Management App",
-    description: "Fullstack Inventory Management Dashboard",
+    title: "Inventory Dashboard",
+    description: "Fullstack Management with Next.js & PostgreSQL",
     bgImage: "/inventory-management.png",
     link: "https://inventory-management-seven-psi.vercel.app/",
   },
   {
-    title: "Dashboard App",
-    description: "NextJs Dashboard",
+    title: "Next.js Admin Analytics",
+    description: "Performance-optimized dashboard with SSR",
     bgImage: "/dashboard.png",
     link: "https://nextjs-dashboard-ruby-nine-99.vercel.app/",
   },
   {
-    title: "Itinerary Planner",
-    description: "Tourist Destination Planner using OSM",
+    title: "TripMandu Planner",
+    description: "Itinerary planning via OpenStreetMap (OSM)",
     bgImage: "/tripmandu.png",
     link: "https://github.com/suren1125/TripMandu",
   },
+
   {
-    title: "e-Voting System",
-    description: "Electronic Voting System",
+    title: "e-Ballot System",
+    description: "Secure e-Voting platform for Digital Governance",
     bgImage: "/eballot.png",
     link: "https://github.com/suren1125/eGovernanceProject",
   },
 
   {
-    title: "Local Library App",
-    description: "Express Library Management tutorial from MDN",
+    title: "Digital Library API",
+    description: "Express.js & MongoDB backend architecture",
     bgImage: "/work-4.png",
     link: "https://github.com/suren1125/express-locallibrary-tutorial",
-  },
-  {
-    title: "Todo App",
-    description: "React Todo tutorial from MDN",
-    bgImage: "/todo.png",
-    link: "https://github.com/suren1125/TodoMatic",
   },
 ];
 
@@ -124,20 +119,20 @@ export const infoList: InfoItem[] = [
   {
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
-    title: "Languages",
-    description: "HTML, CSS, JavaScript, React Js, Next Js",
+    title: "Technical Stack",
+    description: "React, Next.js 16, TypeScript, Tailwind CSS, Framer Motion",
   },
   {
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: "Education",
-    description: "B.Sc. in Computer Science and Information Technology",
+    description: "B.Sc. CSIT | Bhaktapur Multiple Campus (4th Year)",
   },
   {
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
     title: "Projects",
-    description: "Built more than 5 projects",
+    description: "Built 5+ Full-stack & Frontend apps with modern UI/UX",
   },
 ];
 

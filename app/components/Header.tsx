@@ -16,7 +16,7 @@ const Header = () => {
         <Image
           src={assets.profile1}
           alt="profile"
-          className="rounded-full size-45 object-cover"
+          className="rounded-full size-30 md:size-35 lg:size-40 object-cover"
         />
       </motion.div>
 
@@ -34,9 +34,9 @@ const Header = () => {
         initial={{ y: -30, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.4, delay: 0.2 }}
-        className="text-3xl sm:text-6xl lg:text-[66px]"
+        className="text-3xl sm:text-5xl lg:text-[58px]"
       >
-        aspiring frontend web developer based in Nepal
+        frontend developer building responsive, pixel-perfect web experiences.
       </motion.h1>
 
       <motion.p
@@ -45,7 +45,9 @@ const Header = () => {
         transition={{ duration: 0.3, delay: 0.3 }}
         className="max-w-2xl mx-auto"
       >
-        I am a frontend developer.
+        I bridge the gap between aesthetic design and functional code. Based in
+        Nepal, I focus on building scalable applications that perform as well as
+        they look.
       </motion.p>
 
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
