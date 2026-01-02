@@ -26,12 +26,14 @@ const Footer = ({ isDarkMode }: { isDarkMode: boolean }) => {
       <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
         <p>© 2025 Suren Shrestha. All rights reserved.</p>
         <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
-          <li>
+          <li className="flex items-center">
             <a
               rel="noopener noreferrer"
               target="_blank"
               href="https://github.com/suren1125"
+              className="flex items-center gap-1"
             >
+              <Image src="/github.svg" alt="github" width="25" height="25" />
               Github
             </a>
           </li>
@@ -40,7 +42,15 @@ const Footer = ({ isDarkMode }: { isDarkMode: boolean }) => {
               rel="noopener noreferrer"
               target="_blank"
               href="https://linkedin.com/in/suren-shrestha"
+              className="flex items-center gap-1"
             >
+              {" "}
+              <Image
+                src="/linkedin.svg"
+                alt="linkedin"
+                width="25"
+                height="25"
+              />
               LinkedIn
             </a>
           </li>
