@@ -59,18 +59,19 @@ const Projects = () => {
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2 }}
             >
-              <div className="bg-white w-10/12 rounded-2xl border border-gray-400 absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-300 group-hover:bottom-7 group-hover:shadow-lg">
+              <div className="absolute inset-0 rounded-2xl bg-black/5 group-hover:bg-black/20 transition-all duration-300" />
+              <div className="bg-white/90 backdrop-blur-sm w-11/12 rounded-xl absolute bottom-5 left-1/2 -translate-x-1/2 py-4 px-5 flex items-center justify-between duration-300 group-hover:bottom-7 group-hover:bg-white shadow-md">
                 <div>
-                  <h2 className="font-semibold">{project.title}</h2>
-                  <p className="text-sm text-gray-700 font-inter">
+                  <h2 className="font-bold text-gray-900">{project.title}</h2>
+                  <p className="text-xs text-gray-600 mt-1">
                     {project.description}
                   </p>
                 </div>
-                <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[1px_1px_0_#000] group-hover:bg-gray-200 transition">
+                <div className="border rounded-full border-black w-10 h-10 flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-black group-hover:text-white transition-all duration-300">
                   <Image
                     src={assets.send_icon}
                     alt="send-icon"
-                    className="w-5"
+                    className="w-4 group-hover:invert"
                   />
                 </div>
               </div>
