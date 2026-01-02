@@ -33,7 +33,13 @@ const Footer = ({ isDarkMode }: { isDarkMode: boolean }) => {
               href="https://github.com/suren1125"
               className="flex items-center gap-1"
             >
-              <Image src="/github.svg" alt="github" width="25" height="25" />
+              <Image
+                src="/github.svg"
+                alt="github"
+                width="25"
+                height="25"
+                className="dark:invert"
+              />
               Github
             </a>
           </li>
@@ -50,6 +56,7 @@ const Footer = ({ isDarkMode }: { isDarkMode: boolean }) => {
                 alt="linkedin"
                 width="25"
                 height="25"
+                className="dark:invert"
               />
               LinkedIn
             </a>
